@@ -24,7 +24,7 @@
           title: 'Hello World!',
           body: 'This is a blog content.',
           comments: [{
-            body: 'good demo',
+            body: 'this is a comment: good demo.that is so great',
           },
           ],
         },
@@ -35,7 +35,6 @@
 
   export default {
     name: 'blog',
-
     data() {
       return initBlogs;
     },
