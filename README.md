@@ -32,6 +32,12 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 ## References
-[基于Vue2 搭建移动端 webapp 框架](http://www.jianshu.com/p/beae26e57b0f)
-[10 Best Vue.js based UI Frameworks for Building Mobile Apps](https://superdevresources.com/vuejs-mobile-frameworks/)   
-[]()  
+### General
+[基于Vue2 搭建移动端 webapp 框架](http://www.jianshu.com/p/beae26e57b0f)  
+
+[10 Best Vue.js based UI Frameworks for Building Mobile Apps](https://superdevresources.com/vuejs-mobile-frameworks/)
+
+
+
+### UI   
+[vue-admin](https://github.com/vue-bulma/vue-admin)  

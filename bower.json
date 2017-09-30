@@ -1,0 +1,25 @@
+{
+  "name": "hqf.tutorials.vuejs",
+  "description": "vue demos by HQF",
+  "main": "main.js",
+  "authors": [
+    "huoxudong125 <423huo@163.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/huoxudong125/hqf.tutorials.vuejs",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
