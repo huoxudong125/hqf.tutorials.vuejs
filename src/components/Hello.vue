@@ -21,6 +21,9 @@
     <h2>Others</h2>
     <router-link to="Blog">Go to blogs</router-link>
 
+    <router-link to="Form">Go to Form</router-link>
+
+
   </div>
 </template>
 
