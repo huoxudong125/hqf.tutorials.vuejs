@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import Blog from '@/components/Blog';
 import Form from '@/components/Form';
+import BootStrap from '@/components/BootStrap';
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/Form',
       name: 'Form',
       component: Form,
+    },
+    {
+      path: '/BootStrap',
+      name: 'BootStrap',
+      component: BootStrap,
     },
   ],
 });

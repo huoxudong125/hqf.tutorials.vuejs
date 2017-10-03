@@ -23,6 +23,7 @@
 
     <router-link to="Form">Go to Form</router-link>
 
+    <router-link to="BootStrap">Go to BootStrap</router-link>
 
   </div>
 </template>
