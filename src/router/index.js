@@ -4,8 +4,10 @@ import Hello from '@/components/Hello';
 import Blog from '@/components/Blog';
 import Form from '@/components/Form';
 import BootStrap from '@/components/BootStrap';
+import ElementUIDemo from '@/components/ElementUIDemo';
 
 Vue.use(Router);
+
 
 export default new Router({
   routes: [
@@ -28,6 +30,11 @@ export default new Router({
       path: '/BootStrap',
       name: 'BootStrap',
       component: BootStrap,
+    },
+    {
+      path: '/ElementUIDemo',
+      name: 'ElementUIDemo',
+      component: ElementUIDemo,
     },
   ],
 });
