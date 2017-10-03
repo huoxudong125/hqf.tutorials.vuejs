@@ -30,6 +30,25 @@ npm test
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
+## CSS
+
+### LESS version
+```
+npm install --save-dev bootstrap less less-loader
+```
+And include the LESS file in src/main.js
+```
+require('../node_modules/bootstrap/less/bootstrap.less')
+```
+### SASS version
+```
+npm install --save-dev bootstrap-sass node-sass sass-loader
+```
+And include the SASS file in src/main.js
+```
+require('../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
+```
+
 
 ## References
 ### General
