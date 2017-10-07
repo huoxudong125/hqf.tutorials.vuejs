@@ -5,6 +5,7 @@
     <button @click="decrement">-</button>
     <button @click="incrementIfOdd">Increment if odd</button>
     <button @click="incrementAsync">Increment async</button>
+    <h2>Current Count is : [{{count}}]</h2>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
   export default {
     computed: mapGetters([
       'evenOrOdd',
+      'count',
     ]),
     methods: mapActions([
       'increment',
