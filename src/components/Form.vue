@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <div id='example-1' class="examplePanel">
@@ -114,12 +115,15 @@
     },
     methods: {
       submitData() {
+        // eslint-disable-next-line
         alert('submit the datas! ');
       },
       keyUp(e) {
+        // eslint-disable-next-line
         console.info(e.target.value);
       },
       keyUpEnter() {
+        // eslint-disable-next-line
         console.info('you hit the enter key.');
       },
     },

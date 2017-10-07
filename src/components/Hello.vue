@@ -26,6 +26,8 @@
     <router-link to="BootStrap">Go to BootStrap</router-link>
 
     <router-link to="ElementUIDemo">Go to ElementUI</router-link>
+    <br>
+    <router-link to="ProductList">Go to ProductList</router-link>
 
   </div>
 </template>
