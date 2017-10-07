@@ -27,6 +27,8 @@
 
     <router-link to="ElementUIDemo">Go to ElementUI</router-link>
 
+    <router-link to="Counter">Go to Counter</router-link>
+
   </div>
 </template>
 
