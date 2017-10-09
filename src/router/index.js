@@ -6,6 +6,7 @@ import Form from '@/components/Form';
 import BootStrap from '@/components/BootStrap';
 import ElementUIDemo from '@/components/ElementUIDemo';
 import Counter from '@/components/Counter';
+import FormDemo from '@/components/FormDemo';
 
 Vue.use(Router);
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/Counter',
       name: 'Counter',
       component: Counter,
+    },
+    {
+      path: '/FormDemo',
+      name: 'FormDemo',
+      component: FormDemo,
     },
   ],
 });
