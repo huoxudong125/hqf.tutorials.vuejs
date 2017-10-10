@@ -22,6 +22,7 @@
     <router-link to="Blog">Go to blogs</router-link>
 
     <router-link to="Form">Go to Form</router-link>
+    <router-link to="FormDemo">Go to FormDemo</router-link>
 
     <router-link to="BootStrap">Go to BootStrap</router-link>
 
