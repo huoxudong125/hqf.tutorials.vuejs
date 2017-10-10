@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
+import Sidebar from '@/components/Sidebar';
 import Blog from '@/components/Blog';
 import Form from '@/components/Form';
 import BootStrap from '@/components/BootStrap';
@@ -15,38 +16,32 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello,
+      components: { default: Hello, sidebar: Sidebar },
     },
     {
       path: '/Blog',
-      name: 'Blog',
-      component: Blog,
+      components: { default: Blog, sidebar: Sidebar },
     },
     {
       path: '/Form',
-      name: 'Form',
-      component: Form,
+      components: { default: Form, sidebar: Sidebar },
     },
     {
       path: '/BootStrap',
-      name: 'BootStrap',
-      component: BootStrap,
+      components: { default: BootStrap, sidebar: Sidebar },
     },
     {
       path: '/ElementUIDemo',
-      name: 'ElementUIDemo',
-      component: ElementUIDemo,
+      components: { default: ElementUIDemo, sidebar: Sidebar },
     },
     {
       path: '/Counter',
-      name: 'Counter',
-      component: Counter,
+      components: { default: Counter, sidebar: Sidebar },
     },
     {
       path: '/FormDemo',
-      name: 'FormDemo',
-      component: FormDemo,
+      components: { default: FormDemo, sidebar: Sidebar },
     },
+
   ],
 });

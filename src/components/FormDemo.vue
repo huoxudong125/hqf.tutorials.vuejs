@@ -2,7 +2,7 @@ Import VueFormComponents from 'vue-form-components'
 <template>
   <div id='formDemo'>
     <h1 class='text-center'>Demo of vue-form-generator</h1>
-    <div class='container' id='app'>
+    <div>
       <div class='panel panel-default'>
         <div class='panel-heading'>Form</div>
         <div class='panel-body'>

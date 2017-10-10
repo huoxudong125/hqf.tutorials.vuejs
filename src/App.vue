@@ -3,9 +3,16 @@
     <!--<img src="./assets/logo.png">-->
     <!-- 使用动态的 transition name -->
     <!--<transition :name="transitionName">-->
-    <transition v-bind:name="transitionName">
-      <router-view></router-view>
-    </transition>
+    <div style="width: 20%; float:left;">
+      <router-view name="sidebar"></router-view>
+    </div>
+
+    <div style="width: 75%; float:left;">
+
+      <transition v-bind:name="transitionName">
+        <router-view></router-view>
+      </transition>
+    </div>
   </div>
 </template>
 
@@ -43,11 +50,14 @@
   .slide-fade-enter-active {
     transition: all .3s ease;
   }
+
   .slide-fade-leave-active {
     transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
   }
+
   .slide-fade-enter, .slide-fade-leave-to
-    /* .slide-fade-leave-active for below version 2.1.8 */ {
+    /* .slide-fade-leave-active for below version 2.1.8 */
+  {
     transform: translateX(10px);
     opacity: 0;
   }
