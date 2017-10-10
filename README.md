@@ -31,6 +31,9 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 ## CSS
+ using `vue-icon-font`
+ >A iconfont plugin for Vuejs
+ 
 
 ### LESS version
 ```
@@ -62,3 +65,8 @@ require('../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
 [vue-admin](https://github.com/vue-bulma/vue-admin)
 
 [Using Bootstrap with Vue.js](http://vuetips.com/bootstrap)
+
+
+## npm mirror
+npm install --registry=https://registry.npm.taobao.org
+

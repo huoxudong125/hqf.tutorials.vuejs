@@ -3,11 +3,11 @@
     <!--<img src="./assets/logo.png">-->
     <!-- 使用动态的 transition name -->
     <!--<transition :name="transitionName">-->
-    <div style="width: 20%; float:left;">
+    <div style="width: 20%; float:left;min-width: 200px">
       <router-view name="sidebar"></router-view>
     </div>
 
-    <div style="width: 75%; float:left;">
+    <div style="width: 75%; float:left;min-width: 200px">
 
       <transition v-bind:name="transitionName">
         <router-view></router-view>

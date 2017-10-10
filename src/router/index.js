@@ -8,6 +8,7 @@ import BootStrap from '@/components/BootStrap';
 import ElementUIDemo from '@/components/ElementUIDemo';
 import Counter from '@/components/Counter';
 import FormDemo from '@/components/FormDemo';
+import Dialog from '@/components/Dialog';
 
 Vue.use(Router);
 
@@ -41,6 +42,10 @@ export default new Router({
     {
       path: '/FormDemo',
       components: { default: FormDemo, sidebar: Sidebar },
+    },
+    {
+      path: '/Dialog',
+      components: { default: Dialog, sidebar: Sidebar },
     },
 
   ],

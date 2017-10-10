@@ -1,2 +1,4 @@
 build/*.js
 config/*.js
+src/assets/iconfont/*.js
+src/assets/iconfont/*.css
